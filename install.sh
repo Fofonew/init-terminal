@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo apt update && sudo apt install -y zsh
+sudo apt update && sudo apt -y install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
